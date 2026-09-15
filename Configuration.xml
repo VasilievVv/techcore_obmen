@@ -291,6 +291,7 @@
 			<Enum>СтавкиНДС</Enum>
 			<Enum>ПолФизическихЛиц</Enum>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
+			<DataProcessor>ПодключениеКДругой1СБазе</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ОстаткиТоваровНаСкладах</AccumulationRegister>

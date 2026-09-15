@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="Constant.НаименованиеФирмы.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.АдресФирмы.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ИНН.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ОсновнойКаталог.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Constant.НаименованиеФирмы.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Constant.АдресФирмы.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Constant.ИНН.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Constant.ОсновнойКаталог.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Constant.НаименованиеФирмы.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+		</Command>
+		<Command name="Constant.АдресФирмы.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+		</Command>
+		<Command name="Constant.ИНН.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+		</Command>
+		<Command name="Constant.ОсновнойКаталог.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Константы</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>ActionsPanelTools</Group>
+		<Group>CommandGroup.Константы</Group>
+		<Group>CommandGroup.Обработки</Group>
+	</GroupsOrder>
+</CommandInterface>

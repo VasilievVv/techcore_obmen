@@ -127,8 +127,8 @@
 		<Metadata name="DataProcessor.КонсольЗапросов.Template.РезультатВыполненияЗапроса" id="f0a39ad7-1760-4081-9132-88cecbf8bd95" configVersion="9f07dbba8cdc8b4381e8599c5fa8bf9100000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов.Template.РезультатВыполненияЗапроса.Template" id="f0a39ad7-1760-4081-9132-88cecbf8bd95.0" configVersion="6b816b840cbdc246982fde562f5a26f300000000"/>
 		<Metadata name="DataProcessor.ПодключениеКДругой1СБазе" id="ffee1b05-7096-482d-82af-3d30dce7e3bc" configVersion="38ce0ded25c2434cbfb25f4a11786ab800000000"/>
-		<Metadata name="DataProcessor.ПодключениеКДругой1СБазе.Form.Форма" id="d4619d99-ce4b-43b8-acc3-8eba4eeb0cd4" configVersion="6b3f8908579d804d970371e3a4d071eb00000000"/>
-		<Metadata name="DataProcessor.ПодключениеКДругой1СБазе.Form.Форма.Form" id="d4619d99-ce4b-43b8-acc3-8eba4eeb0cd4.0" configVersion="bc063764dce581439e4b005ac734b92f00000000"/>
+		<Metadata name="DataProcessor.ПодключениеКДругой1СБазе.Form.Форма" id="d4619d99-ce4b-43b8-acc3-8eba4eeb0cd4" configVersion="33051479cff5bb439a879ce6a15f5d8300000000"/>
+		<Metadata name="DataProcessor.ПодключениеКДругой1СБазе.Form.Форма.Form" id="d4619d99-ce4b-43b8-acc3-8eba4eeb0cd4.0" configVersion="4193a0e51b02404181f32e35c8cc933500000000"/>
 		<Metadata name="DefinedType.Денежный" id="4dc9d84c-3002-48fa-a741-d1d03aa463a6" configVersion="9271f5a398e0af44a2742f8ea508369200000000"/>
 		<Metadata name="Document.ЗаказПокупателя" id="41ab6ff4-5687-4ad2-a514-411f79858eb0" configVersion="df4228a1e115f043918fa80aca43f0bc00000000">
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Номенклатура" id="816f9a17-2eb9-44ef-947a-f236e66cde78"/>

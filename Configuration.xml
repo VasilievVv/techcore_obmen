@@ -259,6 +259,7 @@
 			<CommonPicture>Разное</CommonPicture>
 			<CommonModule>ОбщегоНазначения_Сервер</CommonModule>
 			<CommonModule>ОбщегоНазначения_Клиент</CommonModule>
+			<XDTOPackage>ПакетXDTO1</XDTOPackage>
 			<DefinedType>Денежный</DefinedType>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -292,6 +293,8 @@
 			<Enum>ПолФизическихЛиц</Enum>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ПодключениеКДругой1СБазе</DataProcessor>
+			<DataProcessor>МеханизмXDTO</DataProcessor>
+			<DataProcessor>РаботаС_JSON</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ОстаткиТоваровНаСкладах</AccumulationRegister>

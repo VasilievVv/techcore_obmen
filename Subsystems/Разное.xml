@@ -25,6 +25,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресФирмы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнойКаталог</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПодключениеКДругой1СБазе</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МеханизмXDTO</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РаботаС_JSON</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

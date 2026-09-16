@@ -31,6 +31,16 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="DataProcessor.МеханизмXDTO.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.РаботаС_JSON.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
 		<Command name="Constant.НаименованиеФирмы.StandardCommand.Open">
@@ -57,6 +67,14 @@
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="DataProcessor.МеханизмXDTO.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.РаботаС_JSON.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
 		<Command name="Constant.НаименованиеФирмы.StandardCommand.Open">
@@ -75,6 +93,12 @@
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ПодключениеКДругой1СБазе.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.МеханизмXDTO.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.РаботаС_JSON.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
 	</CommandsOrder>

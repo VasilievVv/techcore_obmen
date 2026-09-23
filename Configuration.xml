@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обмен данными Васильев В.В</v8:content>
+					<v8:content>Базовый курс по обмену данными</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -245,7 +245,7 @@
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>
-			<CompatibilityMode>Version8_3_27</CompatibilityMode>
+			<CompatibilityMode>Version8_3_18</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -257,14 +257,17 @@
 			<CommonPicture>Торговля</CommonPicture>
 			<CommonPicture>Кадры</CommonPicture>
 			<CommonPicture>Разное</CommonPicture>
+			<Role>ВсеПрава</Role>
 			<CommonModule>ОбщегоНазначения_Сервер</CommonModule>
 			<CommonModule>ОбщегоНазначения_Клиент</CommonModule>
-			<XDTOPackage>ПакетXDTO1</XDTOPackage>
+			<CommonModule>Обмен</CommonModule>
+			<HTTPService>Exchange</HTTPService>
 			<DefinedType>Денежный</DefinedType>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<CommandGroup>Константы</CommandGroup>
 			<CommandGroup>Обработки</CommandGroup>
+			<CommandGroup>ДомашниеЗадания</CommandGroup>
 			<Constant>НаименованиеФирмы</Constant>
 			<Constant>ИНН</Constant>
 			<Constant>АдресФирмы</Constant>
@@ -292,9 +295,14 @@
 			<Enum>СтавкиНДС</Enum>
 			<Enum>ПолФизическихЛиц</Enum>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
-			<DataProcessor>ПодключениеКДругой1СБазе</DataProcessor>
-			<DataProcessor>МеханизмXDTO</DataProcessor>
-			<DataProcessor>РаботаС_JSON</DataProcessor>
+			<DataProcessor>ОбменЧерезФайлыTXT</DataProcessor>
+			<DataProcessor>ОбменЧерезФайлыDBF</DataProcessor>
+			<DataProcessor>ОбменЧерезФайлыZIP</DataProcessor>
+			<DataProcessor>ДЗ_1</DataProcessor>
+			<DataProcessor>ПросмотрДокументаHTML</DataProcessor>
+			<DataProcessor>ИзвлечениеДанныхИзДокументаHTML</DataProcessor>
+			<DataProcessor>ПередачаФайловСПомощьюЭлектроннойПочты</DataProcessor>
+			<DataProcessor>ПередачаФайловПо_FTP_Протоколу</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ОстаткиТоваровНаСкладах</AccumulationRegister>

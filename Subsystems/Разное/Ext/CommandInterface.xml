@@ -21,22 +21,42 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыTXT.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ПодключениеКДругой1СБазе.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыDBF.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.МеханизмXDTO.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыZIP.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.РаботаС_JSON.StandardCommand.Open">
+		<Command name="DataProcessor.ПросмотрДокументаHTML.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ИзвлечениеДанныхИзДокументаHTML.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ПередачаФайловСПомощьюЭлектроннойПочты.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ПередачаФайловПо_FTP_Протоколу.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ДЗ_1.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -59,24 +79,43 @@
 			<CommandGroup>CommandGroup.Константы</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыTXT.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="DataProcessor.ПодключениеКДругой1СБазе.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыDBF.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="DataProcessor.МеханизмXDTO.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыZIP.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="DataProcessor.РаботаС_JSON.StandardCommand.Open">
+		<Command name="DataProcessor.ПросмотрДокументаHTML.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.ИзвлечениеДанныхИзДокументаHTML.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.ПередачаФайловСПомощьюЭлектроннойПочты.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.ПередачаФайловПо_FTP_Протоколу.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="DataProcessor.ДЗ_1.StandardCommand.Open">
+			<CommandGroup>CommandGroup.ДомашниеЗадания</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
+		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
 		<Command name="Constant.НаименованиеФирмы.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Константы</CommandGroup>
 		</Command>
@@ -89,22 +128,35 @@
 		<Command name="Constant.ОсновнойКаталог.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Константы</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.КонсольЗапросов.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыTXT.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.ПодключениеКДругой1СБазе.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыDBF.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.МеханизмXDTO.StandardCommand.Open">
+		<Command name="DataProcessor.ОбменЧерезФайлыZIP.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.РаботаС_JSON.StandardCommand.Open">
+		<Command name="DataProcessor.ПросмотрДокументаHTML.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ИзвлечениеДанныхИзДокументаHTML.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ПередачаФайловСПомощьюЭлектроннойПочты.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ПередачаФайловПо_FTP_Протоколу.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ДЗ_1.StandardCommand.Open">
+			<CommandGroup>CommandGroup.ДомашниеЗадания</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>ActionsPanelTools</Group>
 		<Group>CommandGroup.Константы</Group>
 		<Group>CommandGroup.Обработки</Group>
+		<Group>CommandGroup.ДомашниеЗадания</Group>
 	</GroupsOrder>
 </CommandInterface>

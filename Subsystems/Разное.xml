@@ -24,9 +24,15 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИНН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресФирмы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнойКаталог</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПодключениеКДругой1СБазе</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МеханизмXDTO</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РаботаС_JSON</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменЧерезФайлыTXT</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменЧерезФайлыZIP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ДЗ_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменЧерезФайлыDBF</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПросмотрДокументаHTML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИзвлечениеДанныхИзДокументаHTML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПередачаФайловСПомощьюЭлектроннойПочты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПередачаФайловПо_FTP_Протоколу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Exchange</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

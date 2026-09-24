@@ -73,6 +73,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="fd750150-a9be-4033-9959-edd93c57d707">
+				<Properties>
+					<Name>JWT</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>JWT</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/jwt</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="302c05b2-4fc1-434e-85f3-6bc3e9255d57">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>JWTGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

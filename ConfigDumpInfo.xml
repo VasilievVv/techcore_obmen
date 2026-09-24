@@ -62,8 +62,8 @@
 		<Metadata name="CommandGroup.Справочники" id="7d0ebfd8-3cca-463c-9461-d0a5ad95103b" configVersion="b695dbf36125b24b8e94ff09e6bde5c600000000"/>
 		<Metadata name="CommonForm.ОсновнойКаталог" id="3f00f2b2-4534-4fad-89d0-88c7c176812d" configVersion="466cf1bb08321a4eb66b718a7f61daa700000000"/>
 		<Metadata name="CommonForm.ОсновнойКаталог.Form" id="3f00f2b2-4534-4fad-89d0-88c7c176812d.0" configVersion="a6b8138b63c90d48a11df17b37e4034e00000000"/>
-		<Metadata name="CommonModule.Обмен" id="53e19351-534f-4055-a69b-eb8255abdd23" configVersion="fee2577cdec8754aab74f31895489ac300000000"/>
-		<Metadata name="CommonModule.Обмен.Module" id="53e19351-534f-4055-a69b-eb8255abdd23.0" configVersion="4d6088aeb06e4d4faafe2f6b43eeb72600000000"/>
+		<Metadata name="CommonModule.Обмен" id="53e19351-534f-4055-a69b-eb8255abdd23" configVersion="13ba622bec28d9408ab0395943db336600000000"/>
+		<Metadata name="CommonModule.Обмен.Module" id="53e19351-534f-4055-a69b-eb8255abdd23.0" configVersion="b5e0061f1dd9354487968d9b1eb077c900000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения_Клиент" id="3f4a3551-0158-429f-bb85-00c88840605b" configVersion="5e088fbea8c3da489111beb03c6b458d00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения_Клиент.Module" id="3f4a3551-0158-429f-bb85-00c88840605b.0" configVersion="beb4a5bafcbe7643a78c92bacd2206ef00000000"/>
 		<Metadata name="CommonModule.ОбщегоНазначения_Сервер" id="0a60acf9-a5c0-48ad-95b1-5cc55637ab9d" configVersion="140eba5894e9194e875b13294ffe177c00000000"/>
@@ -246,15 +246,16 @@
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20" id="f13c5083-198e-4e44-84e2-60877671e833"/>
 			<Metadata name="Enum.СтавкиНДС.EnumValue.БезНДС" id="f87b5cac-4800-4a0c-9f3c-c87b9d6367a0"/>
 		</Metadata>
-		<Metadata name="HTTPService.Exchange" id="e745cc24-2888-4dc2-bb3a-6424adf7627e" configVersion="b0a4f9594c292042aa00bca69d5ca6e500000000">
+		<Metadata name="HTTPService.Exchange" id="e745cc24-2888-4dc2-bb3a-6424adf7627e" configVersion="4de6d6c64b7bdd4296adbd14ca4ea1cc00000000">
 			<Metadata name="HTTPService.Exchange.URLTemplate.Ping.Method.GET" id="085cef87-3af9-4f91-beca-6baf42635dfa"/>
 			<Metadata name="HTTPService.Exchange.URLTemplate.JWT.Method.GET" id="302c05b2-4fc1-434e-85f3-6bc3e9255d57"/>
+			<Metadata name="HTTPService.Exchange.URLTemplate.Goods.Method.POST" id="5cf94841-ab0c-41d8-8632-c72c2bef0ea0"/>
 			<Metadata name="HTTPService.Exchange.URLTemplate.Goods.Method.GET" id="92828798-c5cf-4790-97fc-64f4be12e56e"/>
 			<Metadata name="HTTPService.Exchange.URLTemplate.Ping" id="a4638487-cc90-40a8-baa2-38a4db4d2c84"/>
 			<Metadata name="HTTPService.Exchange.URLTemplate.Goods" id="e5e8b062-5aef-498a-a4f5-780f0130e72d"/>
 			<Metadata name="HTTPService.Exchange.URLTemplate.JWT" id="fd750150-a9be-4033-9959-edd93c57d707"/>
 		</Metadata>
-		<Metadata name="HTTPService.Exchange.Module" id="e745cc24-2888-4dc2-bb3a-6424adf7627e.0" configVersion="3208b17b17b2e749a19488ed277456eb00000000"/>
+		<Metadata name="HTTPService.Exchange.Module" id="e745cc24-2888-4dc2-bb3a-6424adf7627e.0" configVersion="9760b4ee2dee25498df8a18d9468357c00000000"/>
 		<Metadata name="InformationRegister.КурсыВалют" id="1b6f9652-73b6-4aa5-8941-fa65586f27bd" configVersion="14b4ceb53b5ab94c81691646ae31d4c100000000">
 			<Metadata name="InformationRegister.КурсыВалют.Dimension.Валюта" id="9bfd4d21-fa40-4856-9522-fd3693ec2b0b"/>
 			<Metadata name="InformationRegister.КурсыВалют.Resource.Курс" id="b97fefb2-1760-4756-ac7c-9869a790cf3a"/>

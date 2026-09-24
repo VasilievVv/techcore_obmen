@@ -71,6 +71,20 @@
 							<Handler>GoodsGET</Handler>
 						</Properties>
 					</Method>
+					<Method uuid="5cf94841-ab0c-41d8-8632-c72c2bef0ea0">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>GoodsPOST</Handler>
+						</Properties>
+					</Method>
 				</ChildObjects>
 			</URLTemplate>
 			<URLTemplate uuid="fd750150-a9be-4033-9959-edd93c57d707">

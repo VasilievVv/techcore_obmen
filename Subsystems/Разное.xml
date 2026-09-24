@@ -33,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПередачаФайловСПомощьюЭлектроннойПочты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПередачаФайловПо_FTP_Протоколу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.Exchange</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СтороннийWebСервисЦентробанк</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

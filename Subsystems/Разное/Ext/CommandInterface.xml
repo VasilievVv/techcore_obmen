@@ -56,6 +56,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="DataProcessor.СтороннийWebСервисЦентробанк.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="DataProcessor.ДЗ_1.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -107,6 +112,10 @@
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="DataProcessor.СтороннийWebСервисЦентробанк.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="DataProcessor.ДЗ_1.StandardCommand.Open">
 			<CommandGroup>CommandGroup.ДомашниеЗадания</CommandGroup>
 			<Placement>Auto</Placement>
@@ -147,6 +156,9 @@
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ПередачаФайловПо_FTP_Протоколу.StandardCommand.Open">
+			<CommandGroup>CommandGroup.Обработки</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.СтороннийWebСервисЦентробанк.StandardCommand.Open">
 			<CommandGroup>CommandGroup.Обработки</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ДЗ_1.StandardCommand.Open">

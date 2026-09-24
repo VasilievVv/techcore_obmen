@@ -74,7 +74,7 @@
 		<Metadata name="CommonPicture.Разное.Picture" id="abbed8ce-16d4-4a2d-9819-9ac3648eacc9.0" configVersion="bf1c9f4767edfa4bb9ec7be685a843d800000000"/>
 		<Metadata name="CommonPicture.Торговля" id="3c18d583-2274-4bb7-8c28-910eaa740191" configVersion="6c58a798d4228148b884457b6c67dc9d00000000"/>
 		<Metadata name="CommonPicture.Торговля.Picture" id="3c18d583-2274-4bb7-8c28-910eaa740191.0" configVersion="49bfe5f6f6e094429b745d55df1b4d3100000000"/>
-		<Metadata name="Configuration.ОбменДанными" id="f59396fb-0f13-4551-ac04-5660e57dfa5c" configVersion="03e8601e783e7b4a957f03bc6991745d00000000"/>
+		<Metadata name="Configuration.ОбменДанными" id="f59396fb-0f13-4551-ac04-5660e57dfa5c" configVersion="b1271d1b2bd5264188d67d5486f52f8400000000"/>
 		<Metadata name="Configuration.ОбменДанными.ClientApplicationInterface" id="2d432c43-62cf-475b-82ec-10278a4acd1f.b" configVersion="1f123ed996202245bd279c1b3648ee9400000000"/>
 		<Metadata name="Configuration.ОбменДанными.CommandInterface" id="2d432c43-62cf-475b-82ec-10278a4acd1f.a" configVersion="ac50c8b2877aac40b973a4b81f00a6c800000000"/>
 		<Metadata name="Configuration.ОбменДанными.HomePageWorkArea" id="2d432c43-62cf-475b-82ec-10278a4acd1f.8" configVersion="12fcd38e2311b84da99c3e8d60abbc4f00000000"/>
@@ -153,6 +153,9 @@
 		<Metadata name="DataProcessor.ПросмотрДокументаHTML" id="a72bc373-92f9-4e70-a0c1-68870eb784e7" configVersion="986b72b89c51b049b9fcce4b63fb5d0500000000"/>
 		<Metadata name="DataProcessor.ПросмотрДокументаHTML.Form.Форма" id="69ce4810-e1df-4be6-bb14-1541577b9e24" configVersion="37e153893554f244ae9fa71c64997de000000000"/>
 		<Metadata name="DataProcessor.ПросмотрДокументаHTML.Form.Форма.Form" id="69ce4810-e1df-4be6-bb14-1541577b9e24.0" configVersion="e150586231bdf8429999ff7986efca8300000000"/>
+		<Metadata name="DataProcessor.СтороннийWebСервисЦентробанк" id="1b65f8bf-db9e-4928-bad9-d20044715fdc" configVersion="df3688facd930e4caa77c4a3b85b6a2c00000000"/>
+		<Metadata name="DataProcessor.СтороннийWebСервисЦентробанк.Form.Форма" id="12cd8900-3cff-4724-b9db-9180549c6123" configVersion="683e4b6ad260854986b1c1733f4ff57600000000"/>
+		<Metadata name="DataProcessor.СтороннийWebСервисЦентробанк.Form.Форма.Form" id="12cd8900-3cff-4724-b9db-9180549c6123.0" configVersion="dfa042d79be0a245b43df0384e86992700000000"/>
 		<Metadata name="DefinedType.Денежный" id="4dc9d84c-3002-48fa-a741-d1d03aa463a6" configVersion="9271f5a398e0af44a2742f8ea508369200000000"/>
 		<Metadata name="Document.ЗаказПокупателя" id="41ab6ff4-5687-4ad2-a514-411f79858eb0" configVersion="df4228a1e115f043918fa80aca43f0bc00000000">
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Номенклатура" id="816f9a17-2eb9-44ef-947a-f236e66cde78"/>
@@ -267,9 +270,11 @@
 		<Metadata name="Style.Корпоративный.Style" id="9a5d5fee-36d9-4fdc-a9d0-5b5920a9e9da.0" configVersion="c8fbf4254c4db5418b180f7971264c6a00000000"/>
 		<Metadata name="Subsystem.Кадры" id="95ba766b-3339-4021-b90d-62a7ed717dc4" configVersion="40dd150df771df4ea8ca97a49050e9d100000000"/>
 		<Metadata name="Subsystem.Кадры.CommandInterface" id="95ba766b-3339-4021-b90d-62a7ed717dc4.1" configVersion="4ce317a62e547142b08354c3b876fa0100000000"/>
-		<Metadata name="Subsystem.Разное" id="1d56bc47-6f7a-48f4-9d0a-da81e5a3c9cc" configVersion="f99688badfee564a8ebd36a6d553323800000000"/>
-		<Metadata name="Subsystem.Разное.CommandInterface" id="1d56bc47-6f7a-48f4-9d0a-da81e5a3c9cc.1" configVersion="0f539703d9c28342942dac55a5debd5600000000"/>
+		<Metadata name="Subsystem.Разное" id="1d56bc47-6f7a-48f4-9d0a-da81e5a3c9cc" configVersion="53c492bacbb60a409af93fa6073b613a00000000"/>
+		<Metadata name="Subsystem.Разное.CommandInterface" id="1d56bc47-6f7a-48f4-9d0a-da81e5a3c9cc.1" configVersion="010aff1a552a924896828bfff5c51be600000000"/>
 		<Metadata name="Subsystem.Торговля" id="bcb8a4b3-cc83-42d5-934f-074b74a31fd1" configVersion="141e355e0a303248a6e87c487099002700000000"/>
 		<Metadata name="Subsystem.Торговля.CommandInterface" id="bcb8a4b3-cc83-42d5-934f-074b74a31fd1.1" configVersion="bef9f19cf9de4f47855b563ed418e20300000000"/>
+		<Metadata name="WSReference.WSЦентроБанк" id="5f06c4f5-25fa-4684-99f4-190a2af2931c" configVersion="d6ebf16192e9a842ad5c372556d31ca500000000"/>
+		<Metadata name="WSReference.WSЦентроБанк.WSDefinition" id="5f06c4f5-25fa-4684-99f4-190a2af2931c.0" configVersion="e608757c6497034692e37e81d9e78eed00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

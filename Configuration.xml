@@ -262,6 +262,7 @@
 			<CommonModule>ОбщегоНазначения_Клиент</CommonModule>
 			<CommonModule>Обмен</CommonModule>
 			<HTTPService>Exchange</HTTPService>
+			<WSReference>WSЦентроБанк</WSReference>
 			<DefinedType>Денежный</DefinedType>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -303,6 +304,7 @@
 			<DataProcessor>ИзвлечениеДанныхИзДокументаHTML</DataProcessor>
 			<DataProcessor>ПередачаФайловСПомощьюЭлектроннойПочты</DataProcessor>
 			<DataProcessor>ПередачаФайловПо_FTP_Протоколу</DataProcessor>
+			<DataProcessor>СтороннийWebСервисЦентробанк</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>ОстаткиТоваровНаСкладах</AccumulationRegister>

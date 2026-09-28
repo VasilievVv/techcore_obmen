@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WSReference uuid="5f06c4f5-25fa-4684-99f4-190a2af2931c">
+		<InternalInfo>
+			<xr:GeneratedType name="WSReferenceManager.WSЦентроБанк" category="Manager">
+				<xr:TypeId>9e7aaf7d-3cf2-4b7f-ad13-ddd9a8a51031</xr:TypeId>
+				<xr:ValueId>a135cdd9-6971-4a5d-99fc-c59239db235b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>WSЦентроБанк</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>WSЦентро банк</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<LocationURL>https://cbr.ru/DailyInfoWebServ/DailyInfo.asmx?WSDL</LocationURL>
+		</Properties>
+	</WSReference>
+</MetaDataObject>

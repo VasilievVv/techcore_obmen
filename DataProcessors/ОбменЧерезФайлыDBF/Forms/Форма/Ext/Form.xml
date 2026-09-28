@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="ИсточникДанных" id="1">
+			<Title formatted="true">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник данных: &lt;link e1cib/list/Документ.ЗаказПокупателя&gt;Заказы покупателей&lt;/&gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ИсточникДанныхКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ИсточникДанныхРасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<UsualGroup name="ОбъектXBase" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект XBase</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект XBase</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ОбъектXBaseРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<Button name="Выгрузить" id="15">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<CommandName>Form.Command.Выгрузить</CommandName>
+					<ExtendedTooltip name="ВыгрузитьРасширеннаяПодсказка" id="16"/>
+				</Button>
+				<Button name="Прочитать" id="17">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<CommandName>Form.Command.Прочитать</CommandName>
+					<ExtendedTooltip name="ПрочитатьРасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="УдалитьМеньше15000" id="19">
+					<Type>UsualButton</Type>
+					<Width>25</Width>
+					<CommandName>Form.Command.УдалитьМеньше15000</CommandName>
+					<ExtendedTooltip name="УдалитьМеньше15000РасширеннаяПодсказка" id="20"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<TextDocumentField name="Сообщения" id="10">
+			<DataPath>Сообщения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="СообщенияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СообщенияРасширеннаяПодсказка" id="12"/>
+		</TextDocumentField>
+		<LabelField name="ТекущийКаталог" id="7">
+			<DataPath>ТекущийКаталог</DataPath>
+			<Hiperlink>true</Hiperlink>
+			<ContextMenu name="ТекущийКаталогКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТекущийКаталогРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="Click">ТекущийКаталогНажатие</Event>
+			</Events>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОбменЧерезФайлыDBF</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТекущийКаталог" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий каталог</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сообщения" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/txtedt">d5p1:TextDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Выгрузить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_Выгрузить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Прочитать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_Прочитать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="УдалитьМеньше15000" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить меньше 15000</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить меньше 15000</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_УдалитьМеньше15000</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<point xmlns="http://v8.1c.ru/8.2/virtual-resource-system"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		base="/obmen1"
+		ib="File=&quot;E:\base\obmen1&quot;;"
+		enable="false"
+		allowexecutescheduledjobs="">
+	<ws enable="false"
+			pointEnableCommon="true"/>
+	<standardOdata enable="false"
+			reuseSessions="autouse"
+			sessionMaxAge="20"
+			poolSize="10"
+			poolTimeout="5"/>
+	<analytics enable="false"
+			sessionMaxAge="1200"
+			poolSize="500"
+			poolTimeout="5"/>
+	<httpServices>
+		<service name="Exchange"
+				rootUrl="exchange"
+				enable="true"
+				reuseSessions="autouse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5">
+				<accessTokenAuthentication>
+    					<accessTokenRecepientName>Exchange</accessTokenRecepientName>
+    					<issuers>
+        					<issuer name="ssl" authenticationClaimName="sub" authenticationUserPropertyName="name" keyInformation="dGVjaGNvcmU="/>
+    </issuers>
+</accessTokenAuthentication>		</service>
+	</httpServices>
+</point>

@@ -24,7 +24,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИНН</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдресФирмы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ОсновнойКаталог</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">911dff53-66bd-476e-80d9-4f0790bc9f15</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПодключениеКДругой1СБазе</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МеханизмXDTO</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РаботаС_JSON</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

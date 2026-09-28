@@ -1,0 +1,13 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://infostart.ru/price" elementFormQualified="true" attributeFormQualified="false">
+	<valueType name="Денежный" base="xs:decimal" variety="Atomic" minInclusive="0" totalDigits="12" fractionDigits="2"/>
+	<objectType name="ПрайсЛист">
+		<property name="Организация" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="ДатаАктуальности" type="xs:dateTime" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://infostart.ru/price" name="Товары" type="d3p1:Товар" upperBound="-1"/>
+	</objectType>
+	<objectType name="Товар">
+		<property name="Код" type="xs:decimal"/>
+		<property name="Наименование" type="xs:string"/>
+		<property xmlns:d3p1="http://infostart.ru/price" name="Цена" type="d3p1:Денежный"/>
+	</objectType>
+</package>
